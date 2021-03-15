@@ -1,0 +1,348 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul{
+padding: 0px!important;
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252325;
+    height: 60px;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;    
+}
+.logo{
+    padding: 20px;
+    width: 70%;
+    float: left;
+    margin-left: 25px;
+}
+/* deixando lista em horizonte  */
+.rede-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.rede-sociais{
+    width: 25%;
+    float: right;
+}
+/* criando  menu principal e definindo  a cor*/
+.header-2{
+    background-color: #38b6ff;
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 55px;
+}
+
+
+/* esta deixando listta em horizontal e definindo uma cor*/
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 10px;
+    height: 50px;
+    padding: 2px;
+
+}
+/* colocando sublinhado  no menu principal da cor preta quando passa mouse por cima*/
+.menu ul li:hover{
+    border-bottom: 2px solid black;
+    
+
+}
+/* trocando a cor da letras do menu principal quando passa por cima*/
+.menu ul li a:hover{
+    color: black;
+    
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+.menu{ 
+    width: 60%;
+    float: left;
+    
+      
+}
+.busca{
+    
+    width: 30%;
+    float: left;
+    
+}
+/* esta definindo o input buscar que fica cano direito superior na barra de menu e colocando imagen dentro dele*/
+.busca input{
+    background-image: url('../img/buscar.png');
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    margin-left: 80px;  
+    padding: 4px;
+    background-position: 96%;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    
+}
+
+/* esta mudando a setinha pra esquerda deixa ela invisivel e mudando pra setinha da imagen*/
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/anterior.png');
+    top:40%;
+    left: 1%;
+    z-index: 9;
+    position: absolute;
+    color: black;
+}
+/* esta mudando a setinah pra direita deixa ela invisivel e mudando pra setinha da imagen*/
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/proximo.png');
+    top:40%;
+    right: 1%;
+    z-index: 9;
+    position: absolute;
+    color: black;
+}
+.teste{
+    margin: 0 auto;
+    width: 75%;
+    position: relative; 
+    height: 340px;
+    background-color: #f1f1f1;
+    float: left;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.teste2{
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+
+.slick-inittializes{
+    overflow:hidden;
+
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 4px solid black;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    
+}
+li.slick-active button{
+    background-color: #38b6ff ;
+
+}
+/*  usando para deixar em horizontal lista  slide as bolinha que estao na imagen */
+.slick-dots li {
+  display: inline-block;
+  margin-left: 5px;
+    
+}
+.conteudo{
+    margin: 0 auto;
+    width: 60%;
+    height: 1805px;
+    background-color: #f1f1f1;
+    float: left;
+    margin-top: 50px;
+    margin-left: 290px;    
+}
+.lado-direito{
+    
+    width: 80%;
+    margin-left: 75px;
+    
+}
+.noticia{
+    width: 680px;
+    height: 250px;
+    border: 2px solid #cacaca;
+    border-radius: 4px;
+    
+    
+}
+.titulo-conteudo{
+    width: 680px;
+    height: 55px;
+    margin-left: 75px;
+    background-color: #38b6ff;
+    border-radius: 8px;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    
+
+}
+.noticia a img{
+
+    width: 300px;
+    height: 230px;
+    padding: 9px;
+}
+
+.rodape{
+    width: 100%;
+    height: 180px;
+    background-color: #38b6ff;
+    margin: 0 auto;
+    float: left;
+    margin-top: 40px;
+}
+
+.rodape-logo{
+    padding: 30px;
+    width: 65%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.rede-sociais2 ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.rede-sociais2{
+    padding: 10px;
+    margin-top: 10px;
+    width: 25%;
+    float: left;
+}
+h3{
+    font-size: 20px;
+}
+
+.noticia-imagem{
+   
+    width: 310px;
+    height: 300px;
+    float: left;
+}
+
+.titulo{
+    width: 360px;
+    height: 60px;
+    float: left;
+    background: deeppink;
+    margin-top: 10px;
+}
+.titulo a{
+    display: flex;
+    margin-left: 10px;
+    line-height: 1.4rem;
+    font-size: 1.3rem;;
+}
+
+.alinha{
+    width: 360px;
+    height: auto;
+    float: left;
+    
+    
+    
+}
+.alinha ul li{
+   
+    display: inline-block;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: inherit;
+    
+}
+.dat-noticia{
+    width: 90px;
+    display: flex;
+    float: right;
+   
+ }
+ .autor-noticia{
+     width: 140px;
+     display: flex;
+     float: left;
+     background: darkgoldenrod;
+ }
+
+ .alinha a{
+    text-decoration: none;
+    color: black;
+}
+.titulo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cate{
+
+    width: 140px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    background: blue;
+    
+}
+
+.texto{
+ float: left;
+ width: 360px;
+ 
+ height: 105px;
+ background: brown;
+}
+
+.texto a{
+    text-decoration: none;
+   color: black;
+    
+}
+.testando{
+    float: left;
+    width: 380px;
+    height: 250px;
+    background: antiquewhite;
+}

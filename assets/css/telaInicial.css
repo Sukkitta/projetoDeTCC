@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.lado-direito{
+    width: 50%;
+    box-shadow: 0 0 10px #5555;
+    border-radius: 4px;
+    float: left;
+    margin-left: 150px;
+    
+}
+.noticia{
+    
+    height: 250px;
+    border: 1px solid #cacaca70;
+}
+.noticia-imagem{
+    width: 310px;
+    float: left;
+    height: 250px;
+}
+.noticia-imagem img{
+
+    width: 300px;
+    height: 230px;
+    padding: 9px;
+}
+.testando{
+    float: left;
+    width: 360px;
+    height: 250px;
+    
+}
+.cate{
+    width: 140px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #38b6ff;
+}
+.titulo{
+    width: 360px;
+    height: 60px;
+    float: left;
+    
+    margin-top: 10px;
+}
+.titulo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    margin-left: 10px;
+    line-height: 1.4rem;
+    font-size: 1.3rem;;
+}
+.texto{
+    float: left;
+    width: 360px;
+    height: 105px;
+    margin-left: 10px;
+    
+}
+
+.texto a{
+    text-decoration: none;
+   color: black;
+    
+}
+
+
+
+.alinha{
+    width: 360px;
+    height: auto;
+    float: left;
+}
+.alinha a{
+    text-decoration: none;
+    color: black;
+}
+
+.alinha ul li{
+   
+    display: inline-block;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: inherit;
+    
+}
+
+.dat-noticia{
+    width: 90px;
+    display: flex;
+    float: right;
+   
+ }
+
+ .autor-noticia{
+    width: 140px;
+    display: flex;
+    float: left;
+   
+}
+
+.btn {
+    display: block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(30, 60, 90, 0.2);
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: scale(1.1);
+  }
+
+  .btn-maisNoticia{
+    background: #38b6ff;
+    text-decoration: none;
+  }
+  .botao{
+    border: none;
+    background: none;
+}
+.alinhar-centro{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-conteudo{
+
+    display: flex;
+  }
+  .titulo-conteudo h2{
+      margin-left: 10px;
+  }

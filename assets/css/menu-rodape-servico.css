@@ -1,0 +1,164 @@
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.menu-primario{
+    width: 100%;
+    height: 60px;
+    background-color: #252325;
+}
+
+.rede-sociais ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.logo{
+    width: 60%;
+    padding: 20px;
+    margin-left: 25px;
+    float: left;
+}
+.rede-sociais{
+    width: 28%;
+    float: right;
+    
+}
+li{
+    margin-left: 10px;
+}
+.menu{
+    background-color: #38b6ff;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+   
+}
+.menu-opcao{
+    margin-top: 8px;
+}
+.menu-opcao ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 10px;
+    height: 50px;
+    padding: 2px;
+
+}
+.menu-opcao ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px;
+    list-style: none;
+   
+    
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;    
+}
+.menu-opcao{
+
+    width: 50%;
+    float: left;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    
+}
+.busca{
+    
+    width: 20%;
+    float: left; 
+    margin-top: 13px;
+}
+.busca input{
+    background-image: url('../img/buscar.png');
+    background-repeat: no-repeat;
+    margin-top: 20x;
+    margin-left: 80px;  
+    padding: 4px;
+    background-position: 96%;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+}
+
+.rodape{
+    width: 100%;
+    height: 180px;
+    background-color: #38b6ff;
+    margin: 0 auto;
+    float: left;
+    margin-top: 40px;
+}
+
+.rodape-logo{
+    padding: 30px;
+    width: 65%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.rede-sociais2 ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.rede-sociais2{
+    padding: 20px;
+    
+    width: 25%;
+    float: left;
+}
+h3{
+    font-size: 20px;
+}
+.usuario-logado{
+    width: 20%;
+    float: left;
+    margin-left: 210px;
+    margin-top: 8px;
+    
+}
+h4{
+    color:white;
+    float: left;
+    margin-left: 20px;
+    
+}
+h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro-sucesso{
+    width: 55%;
+    float: left;
+    background-color: #689cfd;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  .excluido-sucesso{
+    width: 55%;
+    float: left;
+    background-color: rgb(223, 94, 94);
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+p{
+    
+  color: white;
+  margin-left: 10px;
+}

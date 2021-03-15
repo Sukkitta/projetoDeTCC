@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #252325;
+    height: 60px;
+}
+.logo{
+    padding: 20px;
+    width: 70%;
+    float: left;
+    margin-left: 25px;
+}
+.rede-sociais{
+    width: 25%;
+    float: right;
+}
+.rede-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    
+}
+.menu ul li:hover{
+    border-bottom: 2px solid black;
+    
+
+}
+/* trocando a cor da letras do menu principal quando passa por cima*/
+.menu ul li a:hover{
+    color: black;
+    
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+.menu{ 
+    width: 60%;
+    float: left;
+    
+      
+}
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 10px;
+    height: 50px;
+    padding: 2px;
+
+}
+.header-3{
+    background-color: #38b6ff;
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 55px;
+}
+
+
+.rodape{
+    width: 100%;
+    height: 180px;
+    background-color: #38b6ff;
+    margin: 0 auto;
+    float: left;
+    margin-top: 40px;
+}
+
+.rodape-logo{
+    padding: 30px;
+    width: 65%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.rede-sociais2 ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.rede-sociais2{
+    padding: 10px;
+    margin-top: 10px;
+    width: 25%;
+    float: left;
+}
